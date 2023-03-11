@@ -1,7 +1,7 @@
 export default function About() {
     return (
         <>
-            <div  className = "text-center mx-20 p-4 py-10 mt-10 bg-gray-200 text-gray-600 rounded-md">
+            <div  className = "text-center sm:mx-20 p-4 py-10 mt-10 bg-gray-200 text-gray-600 rounded-md">
                 <h1 className = "text-xl p-4 font-medium text-sky-900">About Me</h1>
                 <p  className = "">
                     Hi I'm Pritam, I am a software engineer with bachelor's in information technology <br />
