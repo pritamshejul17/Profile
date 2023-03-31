@@ -2,10 +2,10 @@ export default function About() {
     return (
         <>
             <div className = 'flex justify-center'>
-            <div  className = "text-center sm:w-2/3 shadow-md p-6 py-10 mt-10 bg-slate-100 text-gray-600 rounded-md">
+            <div  className = "text-center sm:w-2/3 shadow-md p-6 py-10 mt-10 bg-slate-100 text-stone-600 rounded-md">
                 <h1 className = "text-xl p-4 font-medium text-sky-900">About Me</h1>
                 <p  className = "">
-                    Hi I'm Pritam, I am a software engineer with bachelor's in information technology <br />
+                    Hi I'm <span className = 'font-medium text-sky-900'>Pritam</span>, I am a software engineer with bachelor's in information technology <br />
                     My areas of expertise include web development with frameworks & libraries<br />
                     like <span className = "font-medium text-sky-900">Spring (Spring Boot, Spring MVC, Spring Data JPA, Spring Security)</span> & for <br />
                     frontend <span className = "font-medium text-sky-900">React JS</span> and related libraries, you can checkout my personal <br />
