@@ -5,7 +5,7 @@ import mailto from '../img/mailto1.png'
 export default function Connect() {
     return (
         <div className = "h-full p-6">
-            <h1 className = "text-center p-1 py-2 text-stone-600 font-normal">Connect With Me!</h1>
+            <h1 className = "text-center p-1 py-2 text-stone-600 font-medium">Connect With Me!</h1>
             <ul className = "flex justify-center p-2">
                 <a href = "https://github.com/pritamshejul17" target = "_blank"><img className = "h-10 w-10 rounded-full ml-4" alt ="github logo" src = {github}></img></a>
                 <a href = "https://www.linkedin.com/in/pritam-shejul/" target = "_blank"><img className = "h-10 w-10 rounded-full ml-4" alt = "linkedin logo" src = {linkedin}></img></a>
